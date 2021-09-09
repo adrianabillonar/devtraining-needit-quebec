@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="NeedIt">0242fb8d0fa83200cd674f8ce1050e79</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_58872_needit_needit">stateNOT IN3^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>A list of records in the NeedIt table that do not have a State value of Closed.</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Open</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_58872_needit_needit</name>
+        <order>300</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-25 19:51:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>977358690fa07200cd674f8ce1050e28</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_app_module_977358690fa07200cd674f8ce1050e28</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-09 03:34:24</sys_updated_on>
+        <timeline_page/>
+        <title>Open</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>f2113580db9cff400b9d21c405961947</instance_id>
+        <instance_name>dev75088</instance_name>
+        <name>sys_app_module_977358690fa07200cd674f8ce1050e28</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="NeedIt">0242fb8d0fa83200cd674f8ce1050e79</application><assessment/><device_type/><filter table="x_58872_needit_needit">stateNOT IN3^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="3"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint>A list of records in the NeedIt table that do not have a State value of Closed.</hint><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Open</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_58872_needit_needit</name><order>300</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-01-25 19:51:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>977358690fa07200cd674f8ce1050e28</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Open</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_app_module_977358690fa07200cd674f8ce1050e28</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-09 03:34:24</sys_updated_on><timeline_page/><title>Open</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1671432944</payload_hash>
+        <record_name>Open</record_name>
+        <reverted_from/>
+        <source>5b7cede02f2eb010a1edae5df699b631</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-09 03:34:24</sys_created_on>
+        <sys_id>bcdfa9a42f2eb010a1edae5df699b6d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bc89ef1370000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-09 03:34:24</sys_updated_on>
+        <type>Module</type>
+        <update_guid>7cdfe1a4c82eb010ec464a448cbad035</update_guid>
+        <update_guid_history>7cdfe1a4c82eb010ec464a448cbad035:-1671432944,977be1e0672eb010d7e46f806c0352a8:-817624915,3877edec3ceab0105cd44ef4c41c0e80:0,fbb515e01beab01027c2c01ac8c0bdae:0,f79511e016eab010408c489f4d7b7b0d:0,b5cd5850fcae7010d96fcb3359313615:0,02d4805c0b2e70106a29499c095ea4a7:420226502,6170177bf1de30107a9c716fb22b14d6:0,19201b3bdbde30105153edcb57d3209e:-76451553,7010173b94de3010fb1429f28fcf6a07:0,72df9482879e3010131fbcdff6bb5d98:0,6081427ff20a74102a5fc45dbe118569:0,550194bb32c27410b799f3eb744be403:-817624915,18b948b7c1c274107bc6d08cde7bd827:0,bb2f1783ab0ef0104db3f811dfe82ce2:-1982737045</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Open">27d0b1e42f2eb010a1edae5df699b6f2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-09 03:38:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>60bc1335e7d74ed79474dfe6065ed191</sys_id>
+        <sys_metadata>977358690fa07200cd674f8ce1050e28</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_app_module_977358690fa07200cd674f8ce1050e28</sys_update_name>
+        <sys_update_version display_value="sys_app_module_977358690fa07200cd674f8ce1050e28">bcdfa9a42f2eb010a1edae5df699b6d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-09 03:38:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
